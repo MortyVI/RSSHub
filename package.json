@@ -19,7 +19,6 @@
     "files": [
         "lib"
     ],
-    "type": "module",
     "scripts": {
         "build": "tsx scripts/workflow/build-routes.ts",
         "build:docs": "tsx scripts/workflow/build-docs.ts",
