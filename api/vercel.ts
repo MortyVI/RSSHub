@@ -1,9 +1,7 @@
-require('module-alias/register');
-
-import { setConfig } from '../lib/config';
+import { setConfig } from '@/config';
 import { handle } from 'hono/vercel';
-import app from '../lib/app';
-import logger from '../lib/utils/logger';
+import app from '@/app';
+import logger from '@/utils/logger';
 
 setConfig({
     NO_LOGFILES: true,
